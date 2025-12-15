@@ -2,6 +2,7 @@
 # Project 1: Differential Gene Expression Analysis
 # Disease: Interstitial Lung Disease (ILD)
 # Dataset: GSE47460 (GPL14550)
+# Clean, reproducible limma workflow for Project 1
 # ============================================================
 
 # Set working directory (adjust if needed)
@@ -85,3 +86,4 @@ write.csv(
 # Sanity check
 nrow(gene_list)
 head(gene_list)
+
